@@ -48,3 +48,8 @@ public void remove(Passenger p) {
 public int getInitialStation(){
     return initialStation;
 }
+
+public boolean getMoveable() {
+    return moveable;
+}
+
