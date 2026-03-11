@@ -52,4 +52,8 @@ public int getInitialStation(){
 public boolean getMoveable() {
     return moveable;
 }
+public boolean isAtDestination() {
+    return currentStation == destination;
+}
+
 
