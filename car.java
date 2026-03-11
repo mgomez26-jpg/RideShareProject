@@ -75,7 +75,16 @@ public void move() {
     } else if (currentStation > destination) {
         currentStation--;
     }
-    
+//Update total distance covered
+    distanceTraveled++;
+}
+public int getDistanceTraveled() {
+    return distanceTraveled;
+}
+
+
+
+
 
 
 
