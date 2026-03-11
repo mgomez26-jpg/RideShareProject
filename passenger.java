@@ -22,4 +22,9 @@ public class Passenger {
 
  public int getLocation() {
     return location;
+ }
+ public int getStart() {
+    return startStation;
+ }
+ 
 }
