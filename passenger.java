@@ -11,6 +11,9 @@ public class Passenger {
  //constructor
  public Passenger (int startStation, int destination, int originalDestination){
     this.startStation = startStation;
+    this.destination = destination;
+    this.originalDestination = originalDestination;
+    ID = globalID++;
  }
 
 }
