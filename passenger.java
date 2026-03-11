@@ -32,6 +32,15 @@ public class Passenger {
  public int getOriginalDestination() {
     return originalDestination;
  }
+ public int getID(){
+    return ID;
+ }
+ public boolean getDirection(){
+    return direction;
+ }
+ public String toString() {
+    return "Dest: " + destination + " Loc: " + location;
+ }
  
 
 }
