@@ -9,7 +9,8 @@ public class Passenger {
  private int startStation;
  
  //constructor
- public Passenger (){
+ public Passenger (int startStation, int destination, int originalDestination){
+    this.startStation = startStation;
  }
 
 }
