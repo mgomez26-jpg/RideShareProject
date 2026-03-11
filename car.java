@@ -43,3 +43,8 @@ public void remove(Passenger p) {
         people.add(p);
     }
 }
+
+//Getter methods
+public int getInitialStation(){
+    return initialStation;
+}
