@@ -26,5 +26,12 @@ public class Passenger {
  public int getStart() {
     return startStation;
  }
+ public int getDestination() {
+    return destination;
+ }
+ public int getOriginalDestination() {
+    return originalDestination;
+ }
  
+
 }
