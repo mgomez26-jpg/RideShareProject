@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class car {
     //fields
     private ArrayList<Passenger> people;
@@ -8,4 +10,13 @@ public class car {
     private boolean moveable;
     private int revenue;
     private int distanceTraveled;
+
+
+    //constructor
+
+    public car(int myInitialStation, int myDestination) {
+        initialStation = myInitialStation;
+        destination = myDestination;
+        Passenger = new ArrayList<>();
+        currentStation = myInitialStation;
 }
