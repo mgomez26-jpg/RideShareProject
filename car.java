@@ -20,3 +20,13 @@ public class Car {
         Passenger = new ArrayList<>();
         currentStation = myInitialStation;
 }
+
+    // determine direction based on initial and destination stations
+    forward = initialStation < destination;
+
+    //initialize movability as true
+    moveable = status;
+}
+
+public Passenger dropoff(int pos) {
+    if (pos != -1) {
