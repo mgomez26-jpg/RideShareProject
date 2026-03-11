@@ -30,3 +30,10 @@ public class Car {
 
 public Passenger dropoff(int pos) {
     if (pos != -1) {
+        Passenger temp = people.get(pos);
+        people.remove(pos);
+        return temp;
+    }
+    
+    return null;
+}
