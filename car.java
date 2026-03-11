@@ -56,4 +56,10 @@ public boolean isAtDestination() {
     return currentStation == destination;
 }
 
+public ArrayList<Passenger> getPeople() {
+    return people;
+}
+public int getStationNumber() {
+    return currentStation;
+}
 
