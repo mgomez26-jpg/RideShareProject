@@ -68,6 +68,14 @@ public void setStationNumber (int stationNumber) {
 public int getDestination() {
     return destination;
 }
+//Move method
+public void move() {
+    if (currentStation < destination){
+        currentStation++;
+    } else if (currentStation > destination) {
+        currentStation--;
+    }
+    
 
 
 
