@@ -81,11 +81,10 @@ public void move() {
 public int getDistanceTraveled() {
     return distanceTraveled;
 }
-
-
-
-
-
-
-
-
+//getter for direction
+public boolean getDirection() {
+    return forward;
+}
+public String toString() {
+    return "Initial station: " +initialStation + "Current station: " + currentStation + "Number of People: " + people.size();
+}
