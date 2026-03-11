@@ -62,4 +62,13 @@ public ArrayList<Passenger> getPeople() {
 public int getStationNumber() {
     return currentStation;
 }
+public void setStationNumber (int stationNumber) {
+    currentStation = stationNumber;
+}
+public int getDestination() {
+    return destination;
+}
+
+
+
 
