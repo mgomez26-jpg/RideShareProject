@@ -16,4 +16,10 @@ public class Passenger {
     ID = globalID++;
  }
 
+ public void setLocation (int location){
+    this.location = location;
+ }
+
+ public int getLocation() {
+    return location;
 }
