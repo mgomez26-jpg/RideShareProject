@@ -37,3 +37,9 @@ public Passenger dropoff(int pos) {
     
     return null;
 }
+
+public void remove(Passenger p) {
+    if (people.size() <= 3) {
+        people.add(p);
+    }
+}
