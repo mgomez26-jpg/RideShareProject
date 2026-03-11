@@ -1,4 +1,4 @@
-public record passenger() {
+public class Passenger {
  //fields
  private int location;
  private int destination;
@@ -8,5 +8,8 @@ public record passenger() {
  private int originalDestination;
  private int startStation;
  
- 
+ //constructor
+ public Passenger (){
+ }
+
 }

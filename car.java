@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class car {
+public class Car {
     //fields
     private ArrayList<Passenger> people;
     private int destination;
@@ -14,7 +14,7 @@ public class car {
 
     //constructor
 
-    public car(int myInitialStation, int myDestination) {
+    public Car(int myInitialStation, int myDestination) {
         initialStation = myInitialStation;
         destination = myDestination;
         Passenger = new ArrayList<>();
