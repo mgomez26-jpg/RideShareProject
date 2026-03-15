@@ -6,6 +6,16 @@ public class Road {
     private int revenue;
     private ArrayList<Station> stations;
     private ArrayList<Car> cars;
-    private Random.random;
-    
+    private Random random;
+
+public void addStations() {
+    this.stations = new ArrayList<>();
+    for (int i = 0; i < 32; i++) {
+        stations.add(new Station(i));
+    }
+
 }
+
+
+
+
