@@ -34,7 +34,18 @@ public Road() {
 
 public void addCars(int numCars) {
     for (int i = 0; i < numCars; i++) {
-        
+        int start = random.nextInt(32);
+        int dest - random.nextInt(32);
+
+        while (dest == start) {
+            dest = random.nextInt(32);
+        }
+        cars.add(new Car(start, dest));
+    }
+}
+
+
+
 
 
 
