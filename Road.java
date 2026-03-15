@@ -27,6 +27,15 @@ public void addCars(int numCars) {
     }
 }
 
+public Road() {
+    cars = new ArrayList<>();
+    random = new Random();
+}
+
+public void addCars(int numCars) {
+    for (int i = 0; i < numCars; i++) {
+        
+
 
 
 
