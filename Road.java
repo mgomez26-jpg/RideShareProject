@@ -44,6 +44,17 @@ public void addCars(int numCars) {
     }
 }
 
+public void addPassengers(int numPassengers) {
+    for (int i = 0; i < numPassengers; i++) {
+
+        int start = random.nextInt(32);
+        int dest = random.nextInt(32);
+
+        while (dest == start) {
+            dest = random.nextInt(32);
+        }
+        
+
 
 
 
