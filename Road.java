@@ -9,7 +9,7 @@ public class Road {
     private Random random;
 
 public void addStations() {
-    this.stations = new ArrayList<>();
+    stations = new ArrayList<>();
     for (int i = 0; i < 32; i++) {
         stations.add(new Station(i));
     }
@@ -21,21 +21,12 @@ public Road() {
     random = new Random();
 }
 
-public void addCars(int numCars) {
-    for (int i = 0; i< numCars; i++) {
-        stations.add(new Station(i));
-    }
-}
 
-public Road() {
-    cars = new ArrayList<>();
-    random = new Random();
-}
 
 public void addCars(int numCars) {
     for (int i = 0; i < numCars; i++) {
         int start = random.nextInt(32);
-        int dest - random.nextInt(32);
+        int dest = random.nextInt(32);
 
         while (dest == start) {
             dest = random.nextInt(32);
@@ -55,7 +46,7 @@ public void addPassengers(int numPassengers) {
         }
         Passenger p = new Passenger(start, dest, dest);
         p.setLocation(start);
-        stations.get(start).spawnPerson(p);
+        stations.get(start).addPassenger(p);
     }
 }
 public ArrayList<Car> getCars() {
