@@ -17,15 +17,15 @@ public class Car {
     public Car(int myInitialStation, int myDestination) {
         initialStation = myInitialStation;
         destination = myDestination;
-        Passenger = new ArrayList<>();
+        people = new ArrayList<>();
         currentStation = myInitialStation;
-}
+
 
     // determine direction based on initial and destination stations
     forward = initialStation < destination;
 
     //initialize movability as true
-    moveable = status;
+    moveable = true;
 }
 
 public Passenger dropoff(int pos) {
@@ -38,8 +38,8 @@ public Passenger dropoff(int pos) {
     return null;
 }
 
-public void remove(Passenger p) {
-    if (people.size() <= 3) {
+public void pickup(Passenger p) {
+    if (people.size() < 3) {
         people.add(p);
     }
 }
@@ -87,4 +87,5 @@ public boolean getDirection() {
 }
 public String toString() {
     return "Initial station: " +initialStation + "Current station: " + currentStation + "Number of People: " + people.size();
+}
 }
