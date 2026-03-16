@@ -53,7 +53,28 @@ public void addPassengers(int numPassengers) {
         while (dest == start) {
             dest = random.nextInt(32);
         }
-        
+        Passenger p = new Passenger(start, dest, dest);
+        p.setLocation(start);
+        stations.get(start).spawnPerson(p);
+    }
+}
+public ArrayList<Car> getCars() {
+    return cars;
+}
+
+public ArrayList<Station> getStations() {
+    return stations;
+}
+
+public int getMiles() {
+    return miles;
+}
+
+public int getRevenue() {
+    return revenue;
+}
+
+}
 
 
 
