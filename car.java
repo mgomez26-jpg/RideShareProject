@@ -8,7 +8,6 @@ public class Car {
     private boolean forward;
     private int currentStation;
     private boolean moveable;
-    private int revenue;
     private int distanceTraveled;
 
 
