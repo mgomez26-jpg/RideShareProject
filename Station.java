@@ -20,4 +20,10 @@ private ArrayList<Passenger> passengers;
         passengers.add(p);
     }
 
+    public void removePassenger(Passenger p) {
+        passengers.remove(p);
+    }
+}
+
+
 
